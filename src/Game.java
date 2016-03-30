@@ -53,6 +53,9 @@ public class Game extends Deck{
 			int color = this.getColor(index);
 			if ( color == Card.Black) {
 				this.busted[this.current_player]=true;
+				System.out.println(this.current_player);
+				this.nextPlayer();
+				System.out.println(this.current_player);
 				return Game.LOSE;
 			}
 			// decide if winner already exist
@@ -111,6 +114,8 @@ public class Game extends Deck{
 	public boolean isBusted (int index) {
 		return this.busted[ index];
 	}
+	
+
 	//	
 	//	public int getNumberofCards () {
 	//		return this.deck.getNumberofCards();

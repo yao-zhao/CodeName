@@ -143,6 +143,10 @@ public class Deck {
 	public String getWord (int ind) {
 		return this.cards.get(ind).getWord();
 	}
+	
+	public boolean getVisiblility(int ind) {
+		return this.cards.get(ind).getVisibility();
+	}
 
 	//    // print deck
 	//    public void printDeck () {

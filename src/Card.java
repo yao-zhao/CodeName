@@ -54,4 +54,8 @@ public class Card {
 		return this.word;
 	}
 
+	
+	public boolean getVisibility () {
+		return this.visibility;
+	}
 }
