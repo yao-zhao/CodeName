@@ -1,0 +1,2 @@
+animals
+,camel,horse,bufflo,giraffe,rabbit,bunny,broiler,chicken,chick,turkey,hen,roaster,peacock,elephant,whale,shark,salmon,crab,clam,pig,hog,hedgehog,dog,cat,tiger,lion,bug,ladybug,dragonfly,penguin,dove,eagle,hawk,crane,duck,goose,swan,donkey,mule,bull,cow,sheep,crocodile
